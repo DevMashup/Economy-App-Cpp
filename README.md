@@ -7,10 +7,10 @@
 -Create a shop where you can by and sell stuff<br>
 	CATEGORIES<br>
 	----------<br>
-	Clothing<br>
-	Food<br>
-	Electronics<br>
-	and more<br>
+		-Clothing<br>
+		-Food<br>
+		-Electronics<br>
+		-and more<br>
 	
 -Add a job function
 -and More
