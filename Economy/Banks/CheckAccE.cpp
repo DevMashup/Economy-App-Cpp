@@ -15,6 +15,14 @@ void CheckAccE::OpenAccount()
 
 	if (age < 18) cout << "Sorry, you're not old enough to open up a bank account." << endl;
 
-	c.BankLog(name, m_Amount);
+	c.BankLog(name, getAmount(amount));
 	cout << "As a thankyou for opening up an account at Banking Co., here's 500$ as a gift";
+}
+
+float CheckAccE::getAmount(float& num)
+{
+	num += amount;
+	cout << amount;
+
+	return amount;
 }

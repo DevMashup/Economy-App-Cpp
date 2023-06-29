@@ -1,13 +1,19 @@
 #include "ShopC.h"
 
-void ShopC::ItemChoice(vector<string>& itemChoice, string& state)
+void ShopC::ItemChoice(vector<string>& itemChoice, string& state, vector<int>& itemCount, float& amount)
 {
-	if (itemChoice[0] == "Sweater" || itemChoice[0] == "sweater") {
-		if (state == "B" || state == "b") {
-			sE.BuySweater(state);
+	string getFirstWord = itemChoice[0];
+	getFirstWord[0] = toupper(getFirstWord[0]);
+	string item = getFirstWord[0] + getFirstWord.substr(1, getFirstWord.length() - 1);
+	
+	vector<int> sweaterCount;
+
+	if (item == "Sweater") {
+		SweaterC sC;
+		for (int i = 0; i < itemCount.size(); i++) {
+			sweaterCount.push_back(i);
 		}
-		else if (state == "S" || state == "s") {
-			sE.SellSweater(state);
-		}
+
+		sC.SweaterChoice(sweaterCount, state, amount);
 	}
 }

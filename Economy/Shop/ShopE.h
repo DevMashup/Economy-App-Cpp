@@ -16,8 +16,7 @@ private:
 	ShopTF sTF;
 	ShopT sT;
 	Split s;
-	ShopC sC;
 public:
-	void ShopBuy(string&);
-	void ShopSell(string&);
+	void ShopBuy(string&, vector<int>&, float&);
+	void ShopSell(string&, vector<int>&, float&);
 };

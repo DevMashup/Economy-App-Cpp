@@ -1,7 +1,9 @@
 #include "ShopE.h"
 
-void ShopE::ShopBuy(string& state)
+void ShopE::ShopBuy(string& state, vector<int>& itemCount, float& amount)
 {
+	ShopC sC;
+
 	string userInput;
 
 	sTF.BeginShop();
@@ -14,14 +16,15 @@ void ShopE::ShopBuy(string& state)
 	getline(cin, userInput);
 	vector<string> items = s.split(userInput, " ");
 
-	sC.ItemChoice(items, state);
+	sC.ItemChoice(items, state, itemCount, amount);
 
 
 }
 
-void ShopE::ShopSell(string& state)
+void ShopE::ShopSell(string& state, vector<int>& itemCount, float& amount)
 {
-	
+	ShopC sC;
+
 	string userInput;
 
 	sTF.BeginShop();
@@ -34,5 +37,5 @@ void ShopE::ShopSell(string& state)
 	getline(cin, userInput);
 	vector<string> items = s.split(userInput, " ");
 
-	sC.ItemChoice(items, state);
+	sC.ItemChoice(items, state, itemCount, amount);
 }

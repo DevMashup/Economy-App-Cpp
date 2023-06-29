@@ -1,28 +1,19 @@
-#include <iostream>
 #include <vector>
 #include <string>
 
 #include "Text Formatting/AppTF.h"
-#include "Tables/AppT.h"
-#include "Choices/AppC.h"
-#include "RND/Split.h"
+#include "RND/ContinueApp.h"
 
 using namespace std;
 
 int main() {
 	AppTF aTF;
-	AppT aT;
-	AppC aC;
-    Split s;
+	ContinueApp ca;
 
-	string userInput;
-
+	vector<int> itemCount;
+	float amount = 500.0f;
+	
 	aTF.BeginApp();
-	aT.Options();
-
-	cout << "What would you like to do?: ";
-    getline(cin, userInput);
-	vector<string> words = s.split(userInput, " ");
-
-    aC.Choices(words);
+	ca.ConApp(itemCount, amount);
+	
 }

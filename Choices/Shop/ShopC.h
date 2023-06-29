@@ -1,14 +1,14 @@
 #pragma once
+
 #include <iostream>
 #include <string>
 #include <vector>
 
-#include "../../Economy/Shop/Items/SweaterE.h"
+#include "Items/Clothing/SweaterC.h"
 
 using namespace std;
 
 class ShopC {
-	SweaterE sE;
 public:
-	void ItemChoice(vector<string>&, string&);
+	void ItemChoice(vector<string>&, string&, vector<int>&, float& amount);
 };

@@ -118,6 +118,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -130,14 +131,21 @@
     <ClCompile Include="App.cpp" />
     <ClCompile Include="Choices\AppC.cpp" />
     <ClCompile Include="Choices\BankC.cpp" />
+    <ClCompile Include="Choices\Jobs\PickJobC.cpp" />
+    <ClCompile Include="Choices\Shop\Items\Clothing\SweaterC.cpp" />
     <ClCompile Include="Choices\Shop\ShopC.cpp" />
     <ClCompile Include="Economy\Banks\CheckAccE.cpp" />
     <ClCompile Include="Economy\Banks\ChooseBankE.cpp" />
-    <ClCompile Include="Economy\Shop\Items\SweaterE.cpp" />
+    <ClCompile Include="Economy\Jobs\Care\Nurse.cpp" />
+    <ClCompile Include="Economy\Jobs\PickJob.cpp" />
+    <ClCompile Include="Economy\Shop\Items\Clothing\Sweater\Logic.cpp" />
+    <ClCompile Include="Economy\Shop\Items\Clothing\Sweater\Man\S\Small.cpp" />
     <ClCompile Include="Economy\Shop\ShopE.cpp" />
+    <ClCompile Include="RND\ContinueApp.cpp" />
     <ClCompile Include="RND\Split.cpp" />
     <ClCompile Include="Tables\AppT.cpp" />
     <ClCompile Include="Tables\BankT.cpp" />
+    <ClCompile Include="Tables\Job\PickJobT.cpp" />
     <ClCompile Include="Tables\Shop\ShopT.cpp" />
     <ClCompile Include="Text Formatting\AppTF.cpp" />
     <ClCompile Include="Text Formatting\Banks\CheckAccTF.cpp" />
@@ -147,14 +155,22 @@
   <ItemGroup>
     <ClInclude Include="Choices\AppC.h" />
     <ClInclude Include="Choices\BankC.h" />
+    <ClInclude Include="Choices\Jobs\PickJobC.h" />
+    <ClInclude Include="Choices\Shop\Items\Clothing\SweaterC.h" />
     <ClInclude Include="Choices\Shop\ShopC.h" />
     <ClInclude Include="Economy\Banks\CheckAccE.h" />
     <ClInclude Include="Economy\Banks\ChooseBankE.h" />
-    <ClInclude Include="Economy\Shop\Items\SweaterE.h" />
+    <ClInclude Include="Economy\Jobs\Care\Nurse.h" />
+    <ClInclude Include="Economy\Jobs\PickJob.h" />
+    <ClInclude Include="Economy\Shop\Items\Clothing\PantsE.h" />
+    <ClInclude Include="Economy\Shop\Items\Clothing\Sweater\Logic.h" />
+    <ClInclude Include="Economy\Shop\Items\Clothing\Sweater\Man\S\Small.h" />
     <ClInclude Include="Economy\Shop\ShopE.h" />
+    <ClInclude Include="RND\ContinueApp.h" />
     <ClInclude Include="RND\Split.h" />
     <ClInclude Include="Tables\AppT.h" />
     <ClInclude Include="Tables\BankT.h" />
+    <ClInclude Include="Tables\Job\PickJobT.h" />
     <ClInclude Include="Tables\Shop\ShopT.h" />
     <ClInclude Include="Text Formatting\AppTF.h" />
     <ClInclude Include="Text Formatting\Banks\CheckAccTF.h" />

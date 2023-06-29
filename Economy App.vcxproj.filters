@@ -57,10 +57,31 @@
     <ClCompile Include="Choices\Shop\ShopC.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Economy\Shop\Items\SweaterE.cpp">
+    <ClCompile Include="Text Formatting\Shop\Items\SweaterTF.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Text Formatting\Shop\Items\SweaterTF.cpp">
+    <ClCompile Include="RND\ContinueApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Choices\Shop\Items\Clothing\SweaterC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Economy\Shop\Items\Clothing\Sweater\Man\S\Small.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Economy\Shop\Items\Clothing\Sweater\Logic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Economy\Jobs\PickJob.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tables\Job\PickJobT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Choices\Jobs\PickJobC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Economy\Jobs\Care\Nurse.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -104,10 +125,34 @@
     <ClInclude Include="Choices\Shop\ShopC.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Economy\Shop\Items\SweaterE.h">
+    <ClInclude Include="Text Formatting\Shop\Items\SweaterTF.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Text Formatting\Shop\Items\SweaterTF.h">
+    <ClInclude Include="RND\ContinueApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Economy\Shop\Items\Clothing\PantsE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Choices\Shop\Items\Clothing\SweaterC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Economy\Shop\Items\Clothing\Sweater\Man\S\Small.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Economy\Shop\Items\Clothing\Sweater\Logic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Economy\Jobs\PickJob.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tables\Job\PickJobT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Choices\Jobs\PickJobC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Economy\Jobs\Care\Nurse.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

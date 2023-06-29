@@ -18,6 +18,9 @@ void ShopT::AddItems(vector<string>& items)
 	items.push_back("Tennis Racket");
 	items.push_back("Tennis Ball");
 	items.push_back("Dog Food");
+	items.push_back(" -Men");
+
+	
 }
 
 void ShopT::Options()

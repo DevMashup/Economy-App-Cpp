@@ -12,6 +12,8 @@ public:
 	CheckAccTF c;
 
 	void OpenAccount();
+	float getAmount(float&);
 
-	int m_Amount = 500;
+	bool hasJob = false;
+	float amount = 500;
 };

@@ -1,6 +1,6 @@
 #include "CheckAccTF.h"
 
-void CheckAccTF::BankLog(string name, int amount)
+void CheckAccTF::BankLog(string name, float amount)
 {
 	cout << "|" << name << "'s Account" << endl;
 	cout << "---------------------------------------" << endl;
