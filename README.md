@@ -14,4 +14,7 @@
 	
 -Add a job function
 -and More
--
+
+# Errors
+# ------
+-Dont buy something, then get a job, then sell things because I forgot to add a vector itemCount as parameer in the job/nurse function
